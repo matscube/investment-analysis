@@ -1,12 +1,14 @@
 # configure parameters
 x <- 1 # 元手資金
 a <- 1.1 # 年初 ~ 天井の倍率
-b <- 1.08 # 年初 ~ 底の倍率
+
+b <- 1.085 # 年初 ~ 底の倍率
 c <- a / b
+
 e <- 0.2 # 税金
 
 # define axis
-N <- seq(0, 15, by=1.0)
+N <- seq(0, 30, by=1.0)
 
 # define functions
 y1 <- (
